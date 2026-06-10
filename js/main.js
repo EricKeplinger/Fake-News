@@ -105,8 +105,8 @@ function showIntro() {
                         besondere Detektiv-Urkunde.
                     </p>
 
-                    <button class="start-button" onclick="showCaseIntro(1)">
-                        ➜
+                    <button class="start-button" onclick="showSafetyIntro()">
+    ➜
                     </button>
                 </div>
 
@@ -116,6 +116,85 @@ function showIntro() {
                         src="../img/Dr._Rumour.png" 
                         alt="Dr. Rumour"
                     >
+                </div>
+
+            </div>
+        </section>
+    `;
+}
+
+function showSafetyIntro() {
+    app.innerHTML = `
+        <section class="safety-screen">
+            <div class="safety-layout">
+
+                <div class="safety-card">
+                    <h1>BEVOR DIE MISSION STARTET</h1>
+
+                    <p class="safety-intro">
+                        Bevor du dich auf deine erste Mission stürzt, gibt es zwei wichtige Dinge,
+                        die jeder Meisterdetektiv im Internet kennen muss:
+                        <strong>Fake News</strong> und <strong>Cybermobbing</strong>.
+                    </p>
+
+                    <p class="safety-intro">
+                        Keine Sorge, mit diesen zwei goldenen Regeln wirst du im Netz unschlagbar!
+                    </p>
+
+                    <div class="tip-grid">
+                        <div class="tip-box">
+                            <h2>❌ Fake News</h2>
+                            <h3>Lass dich nicht austricksen!</h3>
+
+                            <p>
+                                <strong>Was ist das?</strong><br>
+                                Fake News sind gefälschte Nachrichten. Das sind Lügen,
+                                erfundene Geschichten oder manipulierte Bilder im Internet.
+                            </p>
+
+                            <p>
+                                Sie werden oft extra spannend oder gruselig gemacht,
+                                damit viele Menschen darauf klicken und sie teilen.
+                            </p>
+
+                            <div class="detective-rule">
+                                🕵️‍♂️ <strong>Die Detektiv-Regel:</strong><br>
+                                Glaub nicht alles, nur weil es cool aussieht oder viele Likes hat!
+                                Wenn dir eine Nachricht komisch vorkommt, mach den Check:
+                                Frag deine Eltern, Lehrer oder schau auf offiziellen
+                                Kinder-Nachrichtenseiten nach.
+                            </div>
+                        </div>
+
+                        <div class="tip-box">
+                            <h2>🛑 Cybermobbing</h2>
+                            <h3>Gemeinsam stark gegen fiese Chats!</h3>
+
+                            <p>
+                                <strong>Was ist das?</strong><br>
+                                Cybermobbing bedeutet, dass jemand im Internet absichtlich
+                                und immer wieder gemein behandelt, beleidigt oder durch Gerüchte
+                                ausgeschlossen wird.
+                            </p>
+
+                            <p>
+                                Das kann zum Beispiel in WhatsApp-Klassenchats, beim Online-Gaming
+                                oder auf TikTok passieren. Das tut richtig weh, auch wenn es
+                                „nur“ auf dem Bildschirm passiert.
+                            </p>
+
+                            <div class="detective-rule">
+                                🕵️‍♀️ <strong>Die Detektiv-Regel:</strong><br>
+                                Ein echter Detektiv macht niemals mit, wenn über andere gelästert wird!
+                                Wenn du siehst, dass jemand gemobbt wird, schreib:
+                                „Hört auf damit!“ und hol dir sofort Hilfe von einem Erwachsenen.
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="start-button safety-button" onclick="showCaseIntro(1)">
+                        Mission starten ➜
+                    </button>
                 </div>
 
             </div>
