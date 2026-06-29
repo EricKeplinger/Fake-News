@@ -738,3 +738,34 @@ input {
         font-size: 18px;
     }
 }
+
+.certificate-screen {
+    padding: 30px;
+}
+
+.certificate-wrapper {
+    position: relative;
+    z-index: 1;
+    width: min(900px, 100%);
+}
+
+.certificate-img {
+    width: 100%;
+    display: block;
+    border-radius: 22px;
+    box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
+}
+
+.certificate-name {
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+
+    color: #1b2440;
+    font-size: clamp(28px, 5vw, 58px);
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}

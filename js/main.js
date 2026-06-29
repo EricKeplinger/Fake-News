@@ -463,11 +463,18 @@ function showNextCase(caseNumber) {
         return;
     }
 
+    const safeName = escapeHtml(playerName);
+
     app.innerHTML = `
-        <section class="case-mission-screen">
-            <div class="mission-placeholder">
-                <h1>Mission geschafft!</h1>
-                <p>Du hast alle sechs Fälle gelöst und Dr. Rumours Tricks entlarvt.</p>
+        <section class="case-mission-screen certificate-screen">
+            <div class="certificate-wrapper">
+                <img 
+                    class="certificate-img" 
+                    src="../img/Urkunde.png" 
+                    alt="Detektiv-Urkunde für ${safeName}"
+                >
+
+                
             </div>
         </section>
     `;
