@@ -335,13 +335,14 @@ input {
 .case-detective-img {
     position: fixed;
     z-index: 2;
-    left: -175px;
+    left: -115px;
     bottom: -95px;
-    width: 375px;
+    width: 660px;
     max-height: 92vh;
     object-fit: contain;
     filter: drop-shadow(0 12px 12px rgba(0, 0, 0, 0.45));
     pointer-events: none;
+    transform: scaleX(-1);
 }
 
 .case-card {
