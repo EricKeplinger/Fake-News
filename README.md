@@ -71,10 +71,9 @@ Die Seite muss über einen lokalen Webserver geöffnet werden, weil die Bilder �
 
 ## Team
 
-Entstanden als Gruppenprojekt an der FH Hagenberg, SS 2026.
+Entstanden als Abgabe für Agiles Projektmanagement an der FH Hagenberg, SS 2026.
 
 - Eric Keplinger
-- *weitere Teammitglieder bitte ergänzen*
 
 ## Bildquellen
 
